@@ -1,0 +1,14 @@
+# Compiled binaries
+*.o
+*.out
+*.exe
+*.a
+*.so
+a.out
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
