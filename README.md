@@ -1,37 +1,29 @@
-# 🏫 School Lab Examples (Okul Laboratuvar Örnekleri)
+# CS Lab Archive
 
-[![C](https://img.shields.io/badge/Language-C-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
-[![C++](https://img.shields.io/badge/Language-C%2B%2B-orange.svg)](https://en.wikipedia.org/wiki/C%2B%2B)
+A collection of C and C++ programs written during undergraduate laboratory sessions at Başkent University. Covers algorithm fundamentals, data structures, file I/O, and object-oriented design.
 
-[TR] Bilgisayar Mühendisliği eğitimi süresince laboratuvar derslerinde geliştirilen C ve C++ programlama dili örneklerini içeren bir arşivdir. Algoritma temelleri, veri yapıları ve temel programlama mantığı üzerine çeşitli çalışmalar barındırır.
+## Structure
 
-[EN] A repository containing C and C++ programming examples developed during undergraduate laboratory sessions in Computer Engineering. It includes various projects focused on algorithm basics, data structures, and core programming logic.
+```
+C_Projects/     — Algorithms, file processing, and data structure exercises in C
+CPP_Projects/   — OOP concepts and logic exercises in C++
+Other_Files/    — Supporting test files (.txt) and miscellaneous resources
+```
 
----
+## Topics Covered
 
-## 📁 Repository Structure / Klasör Yapısı
+- Linked list operations (insertion, deletion, traversal)
+- File reading, writing, and backup routines
+- Mathematical and physics problem solvers
+- Basic OOP patterns in C++
 
-- **`C_Projects/`**: [TR] C dili ile yazılmış algoritma ve dosya işleme örnekleri. / [EN] Algorithm and file processing examples in C.
-- **`CPP_Projects/`**: [TR] C++ dili ile yazılmış nesne yönelimli programlama ve temel mantık örnekleri. / [EN] OOP and basic logic examples in C++.
-- **`Other_Files/`**: [TR] Test dosyaları (.txt) ve diğer kaynaklar. / [EN] Test files (.txt) and other resources.
+## Build
 
----
+Any standard C/C++ compiler works:
 
-## ✨ Highlights / Önemli Başlıklar
-- [TR] Bağlı Liste (Linked List) Uygulamaları
-- [EN] Linked List Applications
-- [TR] Dosya İşleme ve Yedekleme Sistemleri
-- [EN] File Processing and Backup Systems
-- [TR] Matematiksel ve Fiziksel Problem Çözümleri
-- [EN] Mathematical and Physical Problem Solving
+```bash
+gcc program.c -o program && ./program
+g++ program.cpp -o program && ./program
+```
 
----
-
-## 🚀 How to Run / Nasıl Çalıştırılır?
-[TR] Herhangi bir C/C++ derleyicisi (GCC, Clang, MSVC) veya bir IDE (Dev-C++, Code::Blocks, VS Code) ile ilgili dosyayı açıp derleyerek çalıştırabilirsiniz.
-
-[EN] You can run any file by compiling it with a C/C++ compiler (GCC, Clang, MSVC) or using an IDE (Dev-C++, Code::Blocks, VS Code).
-
----
-
-
+Compatible with GCC, Clang, and MSVC. IDE users can open files directly in VS Code, Code::Blocks, or Dev-C++.
